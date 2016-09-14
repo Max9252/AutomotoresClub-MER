@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AUTOMOTORES_CLUB" id="2585059E-DE57-935E-328D-CEDAB102E8AB" version="3.5">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:42:34 UTC</createdTime>
+<ownerDesignName>bd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2585059E-DE57-935E-328D-CEDAB102E8AB</designId>
+</OSDM_Design>

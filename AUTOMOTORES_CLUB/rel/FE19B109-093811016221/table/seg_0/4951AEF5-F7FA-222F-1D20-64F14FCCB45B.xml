@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4951AEF5-F7FA-222F-1D20-64F14FCCB45B" name="AC_P_DEPARTAMENTO">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:47:25 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<abbreviation>Departamentos</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="0C8465B6-08A3-D003-9280-B40409695065">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:48:39 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="F98BF414-A94C-29C8-5303-4C5C0CAF0170">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:48:39 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo_Pais" id="3D88B7ED-6001-3E3B-4014-42E3ECFE7080">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:54:05 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="959934AD-5A25-BC39-BF94-93E884EDA102" referredColumn="E4CA2CAE-D3A8-2796-1D09-5F0425407542"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0237F44D-BFF7-C44A-88D9-96AF8D337069" name="AC_P_DEPARTAMENTOS_PK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:48:39 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C8465B6-08A3-D003-9280-B40409695065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FD67A0D-A116-E605-E050-24611A86879C" name="IDX_DEPARTAMENTOS">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-08-26 14:39:42 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C8465B6-08A3-D003-9280-B40409695065"/>
+<colUsage columnID="F98BF414-A94C-29C8-5303-4C5C0CAF0170"/>
+<colUsage columnID="3D88B7ED-6001-3E3B-4014-42E3ECFE7080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8555B2A-0105-8E98-9389-EF293972E8F4" name="AC_P_PAIS_FK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:54:05 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D88B7ED-6001-3E3B-4014-42E3ECFE7080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B0918A0-FC3B-4C7A-DB2E-6F0F5095134F" name="AC_P_TIPO_USUARIO">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:36:45 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="F9BA913F-E1F3-3707-5E76-25E10F68014C">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:37:34 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="D54507D6-C6BC-3231-BD70-E9090B940DE3">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:37:34 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="F50AE3FF-A937-6DA2-005B-791E2428A9B6">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:37:34 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5C72A74B-97B7-52B3-8762-D17C93FFE2B5" name="AC_P_TIPO_USUARIO_PK">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:37:34 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9BA913F-E1F3-3707-5E76-25E10F68014C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

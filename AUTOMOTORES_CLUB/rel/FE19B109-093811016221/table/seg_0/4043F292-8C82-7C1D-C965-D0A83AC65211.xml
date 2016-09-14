@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4043F292-8C82-7C1D-C965-D0A83AC65211" name="AC_P_PAIS">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:44:22 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>Pais</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="E4CA2CAE-D3A8-2796-1D09-5F0425407542">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:46:53 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="1436E8D6-2100-DBBD-6374-DF9A4A247CF9">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:46:53 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4CAD4AAF-CF30-45A7-D2EE-8645DA0C8908" name="AC_P_PAIS_PK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:46:53 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4CA2CAE-D3A8-2796-1D09-5F0425407542"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BF30180-E567-FF4A-5D9C-AECFCEBBED75" name="IDX_PAIS">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-08-26 14:39:22 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E4CA2CAE-D3A8-2796-1D09-5F0425407542"/>
+<colUsage columnID="1436E8D6-2100-DBBD-6374-DF9A4A247CF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

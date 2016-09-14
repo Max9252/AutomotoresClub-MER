@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE258CDE-7772-ACD4-8DC2-86F9A49AFCF4" name="AC_P_TIPO_IMAGEN">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-19 14:39:58 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_23</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="AF5FB995-B4B4-2A92-C9E3-ABB6980E05B3">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-19 14:41:02 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="41CF7B06-7828-1533-89A8-221BEC546B87">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-19 14:41:02 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="C0D4B61A-B58D-8688-F076-1E108517CC11">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-19 14:41:02 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F019D19B-F9E7-462C-4D00-05AC36E14140" name="AC_P_TIPO_IMAGEN_PK">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-19 14:41:02 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5FB995-B4B4-2A92-C9E3-ABB6980E05B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8119C116-AB68-3E00-B546-58FB49E0E8C6" name="IDX_TIPO_IMAGEN">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-08-26 14:52:23 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF5FB995-B4B4-2A92-C9E3-ABB6980E05B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

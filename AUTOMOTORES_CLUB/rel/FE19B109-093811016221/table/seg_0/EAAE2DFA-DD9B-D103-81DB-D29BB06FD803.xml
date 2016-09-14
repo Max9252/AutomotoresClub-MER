@@ -1,0 +1,250 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAAE2DFA-DD9B-D103-81DB-D29BB06FD803" name="AC_PROVEEDOR">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:14:41 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<abbreviation>Proveedor</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nit_proveedor" id="A1A5EF8C-56A2-5EB1-B4D7-726FE7F61B08">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_proveedor" id="256016E8-AFCF-9046-CB0F-47914FD14477">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Razon_social" id="5D369245-D01F-5248-2988-B114537DFE08">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_sede" id="0BB09673-8BD5-82C4-3255-6C971E506608">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="67E331E7-B12D-0890-2FCB-DEA07068A415">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Numero_contacto" id="F30E8047-472F-1BEB-49FB-9515DDB6B013">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Descripcion" id="A908E47E-60CD-A2C9-3A84-6AB1C5411BE3">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servicio_mensajeria" id="CFE1A0EF-9143-B6CA-E904-D2B28730B246">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-20 20:52:27 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_cobertura" id="AAD290DC-7A64-1CCE-89DC-88E3B528656B">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-20 20:52:55 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Id_Usuario" id="6D0A4F90-CD13-A2EE-941B-03BCA004046A">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-25 20:45:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89CBACE9-6E58-5394-3DD6-19953AA7DCD2" referredColumn="E86D9768-82F6-9762-592F-23090F0EAE5C"/>
+</associations>
+</Column>
+<Column name="nroRegistro" id="65DFA00B-1732-815A-1A97-E35205CECB24">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-02 20:23:01 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre_contacto" id="A9697521-4750-CD45-8446-7EEE9E6D0C21">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-10 18:39:48 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pagina_web" id="AAA8D794-751E-708E-03FC-8BB4B430CCE8">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-10 18:40:00 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono_fijo" id="6943E2EC-7475-CEE7-813D-9030D053DFC2">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-10 18:40:43 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email_contacto" id="5EB95FE3-A706-9DCD-5310-103733FE0E76">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-10 18:41:32 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ciudad" id="50D8D5FE-677C-E918-2B03-26811E07A9AA">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:33:38 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="00180E16-CEC2-280C-DD15-69209EC9D829" referredColumn="B20C0331-D159-55ED-CAF9-B3285B691101"/>
+</associations>
+</Column>
+<Column name="Celular" id="AFC2191F-7D60-676C-6AAC-567D4D08B694">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:42:29 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="391E1B97-728E-1AA5-D2B4-870312B48281" name="Proveedor_PK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 16:20:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0A4F90-CD13-A2EE-941B-03BCA004046A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0219C8C7-872F-C3D9-4139-28F1F02F3CFA" name="IDX_PROVEEDOR">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-08-26 01:34:15 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0A4F90-CD13-A2EE-941B-03BCA004046A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="092FB0F7-BD4E-D204-22AB-BB2DC0D5B4B2" name="ACUSUARIO_FK">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-25 20:45:34 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D0A4F90-CD13-A2EE-941B-03BCA004046A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61DA1AC6-E520-BCCF-F46D-4B57D68635C0" name="AC_P_CIUDAD_FKv2">
+<createdBy>RENTAVALORES</createdBy>
+<createdTime>2016-09-14 14:33:38 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50D8D5FE-677C-E918-2B03-26811E07A9AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

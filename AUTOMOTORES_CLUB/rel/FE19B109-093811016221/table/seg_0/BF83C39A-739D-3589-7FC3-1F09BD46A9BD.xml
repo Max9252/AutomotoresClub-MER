@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF83C39A-739D-3589-7FC3-1F09BD46A9BD" name="AC_P_MARCA">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-28 21:19:32 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<abbreviation>Marcas</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Nombre" id="30A9CA4C-9911-48F4-9318-CDF042BEE08C">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-28 21:20:15 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Codigo" id="FB99539F-013D-599F-8F63-98AEEEEA7AA5">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-28 21:26:24 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Clase_vehiculo" id="C5DB37BB-656F-88FB-7BCE-923A72B9C551">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-25 22:18:06 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="89F91ECB-AE2C-F21B-3504-6706B50B0045" referredColumn="BA3373BF-D22C-D358-C0B9-CE59F8BC9B4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C56B55C3-2A79-84FE-A518-78736ACB8E9E" name="AC_P_MARCA_PK">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-07-28 21:26:24 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB99539F-013D-599F-8F63-98AEEEEA7AA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA1D2D22-2AAE-5D4C-9E20-A39C83CE80E7" name="IDX_MARCA">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-08-26 14:43:18 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB99539F-013D-599F-8F63-98AEEEEA7AA5"/>
+<colUsage columnID="30A9CA4C-9911-48F4-9318-CDF042BEE08C"/>
+<colUsage columnID="C5DB37BB-656F-88FB-7BCE-923A72B9C551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36357D29-0F0D-7EDC-1A79-4BD6543EEFA3" name="AC_P_CLASE_VEHICULO_FKv2">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-25 22:18:06 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5DB37BB-656F-88FB-7BCE-923A72B9C551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

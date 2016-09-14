@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DE6963E-160E-416A-DE1F-2B158A7FE78D" containerWithKeyObject="CF457352-2707-2061-44F6-3943FC73FB34" localFKIndex="EDDF7110-652F-B769-84B2-78D574AB833F" name="AC_P_COMUNA_FK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-07-18 15:57:06 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B42EC0B9-65D4-2D8C-4925-345117914FEA</referredTableID>
+<keyObject>C4F74A9F-7B85-B2BD-17BB-5F0421C75F93</keyObject>
+<referredKeyID>C4F74A9F-7B85-B2BD-17BB-5F0421C75F93</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

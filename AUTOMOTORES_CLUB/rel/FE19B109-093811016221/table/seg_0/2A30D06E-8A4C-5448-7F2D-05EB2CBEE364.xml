@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A30D06E-8A4C-5448-7F2D-05EB2CBEE364" name="AC_MERCADO_OFERENTE">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-02 16:34:11 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Proveedor" id="FED5CAEF-8ACF-75EA-6BA3-5A258F3913D9">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-02 16:34:56 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E18A598-B997-797A-EC42-D9D2FB2AA6D3" referredColumn="6D0A4F90-CD13-A2EE-941B-03BCA004046A"/>
+</associations>
+</Column>
+<Column name="Mercado_objetivo" id="7D51B1D6-9781-ACEA-1B09-9436416F0825">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-02 16:36:13 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59471072-4F65-1AC1-AE98-9818EA2738B6" referredColumn="3F77C7B6-7ED3-4342-554B-049954D0DE4A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="554F49F9-2B12-07CE-A699-99B7E49C7BF5" name="AC_MERCADO_OFERENTE_PK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-02 16:36:35 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FED5CAEF-8ACF-75EA-6BA3-5A258F3913D9"/>
+<colUsage columnID="7D51B1D6-9781-ACEA-1B09-9436416F0825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF69A6A7-D2C7-59C7-8BE1-448979FAFA19" name="IDX_AC_MERCADO_OFERENTE">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-05 22:13:18 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FED5CAEF-8ACF-75EA-6BA3-5A258F3913D9"/>
+<colUsage columnID="7D51B1D6-9781-ACEA-1B09-9436416F0825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="359E6089-744F-EB46-5F0E-E9B4BE3F8266" name="AC_PROVEEDOR_FKv3">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-02 16:34:56 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FED5CAEF-8ACF-75EA-6BA3-5A258F3913D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D8AFD04-2F08-0D92-C26F-0D8FCED5C9A0" name="AC_P_MERCADO_OBJETIVO_FK">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-09-02 16:36:13 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D51B1D6-9781-ACEA-1B09-9436416F0825"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD33BB7A-68CC-7CCB-E4F9-0AA867BA1C02" name="AC_P_CLASE_VEHICULO">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-05 17:24:53 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Codigo" id="BA3373BF-D22C-D358-C0B9-CE59F8BC9B4B">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-06 16:20:49 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="B94E9C3F-5399-A684-7E99-ED61A2A3197C">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-06 16:21:01 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E895F752-B162-91C8-086B-A162288BF4E3" name="AC_P_CLASE_VEHICULO_PK">
+<createdBy>Sandra</createdBy>
+<createdTime>2016-08-06 16:20:49 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA3373BF-D22C-D358-C0B9-CE59F8BC9B4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15904AD3-6702-DEFF-8030-7C4554C365D5" name="IDX_CLASE_VEHICULO">
+<createdBy>rentavalores</createdBy>
+<createdTime>2016-08-26 14:42:58 UTC</createdTime>
+<ownerDesignName>AUTOMOTORES_CLUB</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA3373BF-D22C-D358-C0B9-CE59F8BC9B4B"/>
+<colUsage columnID="B94E9C3F-5399-A684-7E99-ED61A2A3197C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
